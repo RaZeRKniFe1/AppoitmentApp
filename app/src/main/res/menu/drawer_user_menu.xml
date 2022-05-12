@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_appointment"
+            android:icon="@drawable/ic_appointment"
+            android:title="Make an appointment" />
+
+        <item
+            android:id="@+id/nav_delete"
+            android:icon="@drawable/ic_deleteappointment"
+            android:title="Delete an appointment" />
+
+        <item
+            android:id="@+id/nav_communicate"
+            android:icon="@drawable/ic_comunicateadmin"
+            android:title="Communicate with the Store" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+
+
+    </group>
+</menu>
